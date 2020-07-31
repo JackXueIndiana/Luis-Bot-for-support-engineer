@@ -1,0 +1,308 @@
+{
+  "luis_schema_version": "7.0.0",
+  "intents": [
+    {
+      "name": "None",
+      "features": []
+    },
+    {
+      "name": "ShowList",
+      "features": []
+    }
+  ],
+  "entities": [
+    {
+      "name": "changes",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "changesage",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "incident",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "incidentid",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "incidents",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "outages",
+      "children": [],
+      "roles": [],
+      "features": []
+    },
+    {
+      "name": "stguid",
+      "children": [],
+      "roles": [],
+      "features": []
+    }
+  ],
+  "hierarchicals": [],
+  "composites": [],
+  "closedLists": [],
+  "prebuiltEntities": [],
+  "utterances": [
+    {
+      "text": "display a list of incidents",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incidents",
+          "startPos": 18,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "do we have some new incidents?",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incidents",
+          "startPos": 20,
+          "endPos": 28,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "do we have some new outages?",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "outages",
+          "startPos": 20,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "help on incident 173678618",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incident",
+          "startPos": 8,
+          "endPos": 15,
+          "children": []
+        },
+        {
+          "entity": "incidentid",
+          "startPos": 17,
+          "endPos": 25,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "list new outages",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "outages",
+          "startPos": 9,
+          "endPos": 15,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "list out all changes for guid 7e5380ae-5cc6-41a3-96c8-6d9f91f9dd6a in last 15 days",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "changes",
+          "startPos": 13,
+          "endPos": 19,
+          "children": []
+        },
+        {
+          "entity": "stguid",
+          "startPos": 30,
+          "endPos": 65,
+          "children": []
+        },
+        {
+          "entity": "changesage",
+          "startPos": 75,
+          "endPos": 81,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "may i have a list of incidents",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incidents",
+          "startPos": 21,
+          "endPos": 29,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "please help me on incident 65419700",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incident",
+          "startPos": 18,
+          "endPos": 25,
+          "children": []
+        },
+        {
+          "entity": "incidentid",
+          "startPos": 27,
+          "endPos": 34,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "please help on incident 130063491",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incident",
+          "startPos": 15,
+          "endPos": 22,
+          "children": []
+        },
+        {
+          "entity": "incidentid",
+          "startPos": 24,
+          "endPos": 32,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "please list out all changes for service tree guid 6e5380ae-5cc6-41a3-96c8-6d9f91f9dd6a in last 5 days",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "changes",
+          "startPos": 20,
+          "endPos": 26,
+          "children": []
+        },
+        {
+          "entity": "stguid",
+          "startPos": 50,
+          "endPos": 85,
+          "children": []
+        },
+        {
+          "entity": "changesage",
+          "startPos": 95,
+          "endPos": 100,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "please print out a list of incidents",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incidents",
+          "startPos": 27,
+          "endPos": 35,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "please print out a list of outages",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "outages",
+          "startPos": 27,
+          "endPos": 33,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show me a list of incidents",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "incidents",
+          "startPos": 18,
+          "endPos": 26,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show me all changes for service tree guid 7e5380ae-5cc6-41a3-96c8-6d9f91f9dd6c in last 3 days",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "changes",
+          "startPos": 12,
+          "endPos": 18,
+          "children": []
+        },
+        {
+          "entity": "stguid",
+          "startPos": 42,
+          "endPos": 77,
+          "children": []
+        },
+        {
+          "entity": "changesage",
+          "startPos": 87,
+          "endPos": 92,
+          "children": []
+        }
+      ]
+    },
+    {
+      "text": "show me the new outages",
+      "intent": "ShowList",
+      "entities": [
+        {
+          "entity": "outages",
+          "startPos": 16,
+          "endPos": 22,
+          "children": []
+        }
+      ]
+    }
+  ],
+  "versionId": "0.1",
+  "name": "IncidentLookup",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "phraselists": [],
+  "regex_features": [],
+  "patterns": [],
+  "settings": []
+}

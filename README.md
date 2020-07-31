@@ -16,5 +16,6 @@ This is a repo of the python app built on the top of Microsoft Language Understa
 - Python scripts:
   - showlist_detail.py: Data object definition.
   - luis_helper.py: Interaction with Luis ai app.
-  - mian_dialog.py: Overall diaglog flow controlling and calling out to Kusto actions
-  - showlist_diaglog.py: Diaglogs specific to the intentions and entities.
+  - mian_dialog.py: Overall dialog flow controlling and calling out to Kusto actions
+  - showlist_diaglog.py: Dialogs specific to the intentions and entities.
+
